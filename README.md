@@ -14,7 +14,7 @@ python TextDetect.py input.png
 
 # results
 
-![original image](/test_detction.png) ![tests](/test_detction-rect.png)
+![original image](/test_detection.png) ![tests](/test_detection-rect.png)
 
 # see also
 * http://stackoverflow.com/a/23565051
