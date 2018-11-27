@@ -1,5 +1,5 @@
 # text-detection
-text detection using opencv and python
+very simple text detection using opencv and python
 
 # usage
 ``` python
@@ -13,6 +13,10 @@ cv2.imwrite('img-out.png', img)
 # requirements
 * Python > 3.0 (Tested with: 3.4.3)
 * Opencv > 3.0 (Tested with: 3.0.0)
+
+# results
+
+![original image](/test_detction.png) ![tests](/test_detction-rect.png)
 
 # see also
 * http://stackoverflow.com/a/23565051
