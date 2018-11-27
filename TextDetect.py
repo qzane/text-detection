@@ -5,7 +5,7 @@ import cv2
 # author: qzane@live.com
 # reference: http://stackoverflow.com/a/23565051
 # further reading: http://docs.opencv.org/master/da/d56/group__text__detect.html#gsc.tab=0
-def text_detect(img,ele_size=(8,3)): #
+def text_detect(img,ele_size=(8,2)): #
     if len(img.shape)==3:
         img = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
     img_sobel = cv2.Sobel(img,cv2.CV_8U,1,0)#same as default,None,3,1,0,cv2.BORDER_DEFAULT)

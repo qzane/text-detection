@@ -12,6 +12,9 @@ python TextDetect.py input.png
 * Python > 3.0 (Tested with: 3.4.3)
 * Opencv > 3.0 (Tested with: 3.0.0)
 
+# what to do when the result is not good
+Try to change the ele_size for text_detect, smaller value results to a more sensitive detector in corresponding direction
+
 # results
 
 ![original image](/test_detection.png) ![tests](/test_detection-rect.png)
