@@ -1,3 +1,4 @@
+import os,sys
 import numpy as np
 import cv2
 
@@ -15,3 +16,16 @@ def text_detect(img,ele_size=(8,3)): #
     Rect = [cv2.boundingRect(i) for i in contours[1] if i.shape[0]>100]
     RectP = [(int(i[0]-i[2]*0.08),int(i[1]-i[3]*0.08),int(i[0]+i[2]*1.1),int(i[1]+i[3]*1.1)) for i in Rect]
     return RectP
+
+
+def main(inputFile):
+    outputFile = inputFile.split('.')[0]+'-rect.'+'.'.join(inputFile.split('.')[1:])
+    print(outputFile)
+    img = cv2.imread(inputFile)
+    rect = text_detect(img)
+    for i in rect:
+        cv2.rectangle(img,i[:2],i[2:],(0,0,255))
+    cv2.imwrite(outputFile, img)
+
+if __name__ == '__main__':
+    main(sys.argv[1])
