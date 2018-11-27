@@ -1,4 +1,4 @@
-# text-detection
+# text detection
 very simple text detection using opencv and python <br>
 也可以用于中文！ <br>
 심지어 한국 <br>
@@ -13,7 +13,7 @@ python TextDetect.py input.png
 * Opencv > 3.0 (Tested with: 3.0.0)
 
 # what to do when the result is not good
-Try to change the ele_size for text_detect, smaller value results to a more sensitive detector in corresponding direction
+Try to change the ele_size for text_detect, smaller value results in a more sensitive detector in corresponding direction
 
 # results
 
