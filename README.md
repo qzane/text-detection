@@ -1,5 +1,7 @@
 # text-detection
 very simple text detection using opencv and python
+也可以用于中文！
+심지어 한국
 
 # usage
 ``` bash
