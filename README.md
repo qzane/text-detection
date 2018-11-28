@@ -16,8 +16,7 @@ python TextDetect.py input.png
 Try to change the ele_size for text_detect, smaller value results in a more sensitive detector in corresponding direction
 
 # results
-
-![original image](/test_detection.png) ![tests](/test_detection-rect.png)
+![tests](/test_detection-rect.png)
 
 # see also
 * http://stackoverflow.com/a/23565051
